@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
 
+@keyframes donate {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #FFFFFF;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
 body {
   background: #FAB005;
   color: #FFFFFF;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+}
+
+#donate {
+  border: 6px dashed transparent;
+  animation: donate 1s infinite;
 }
 
 #cheese {
