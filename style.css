@@ -66,3 +66,9 @@ main {
 ::selection {
   background: #F59F00;
 }
+
+@media only screen and (max-width: 420px) {
+  p {
+    font-size: 2em;
+  }
+}
